@@ -62,6 +62,7 @@ function AddTransaction() {
             step="0.01"
           />
         </div>
+        <p></p>
         <button className="button" type="submit">
           Add Transaction
         </button>

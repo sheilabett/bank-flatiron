@@ -46,6 +46,7 @@ return(
     <div className= "first-header">
         <h1>Bank of Flatiron</h1>
         <Search handleSearch={handleSearch} searchTerm={searchTerm} />
+        <p></p>
         <AddTransaction/>
         {data.map(transactions=>(
         <Transactions date = {transactions.date} description = {transactions.description} category = {transactions.category} amount = {transactions.amount} key ={transactions.id}/>
